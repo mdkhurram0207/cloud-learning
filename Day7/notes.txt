@@ -1,4 +1,4 @@
-Day 7: Linux Commands & Git Basics
+-Day 7: Linux Commands & Git Basics
 
 Linux Commands
 - `ls` – list directory contents
