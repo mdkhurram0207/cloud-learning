@@ -1,6 +1,6 @@
 Day 7: Linux Commands & Git Basics
 
-## Linux Commands
+Linux Commands
 - `ls` – list directory contents
 - `cd` – change directory
 - `pwd` – print working directory
@@ -11,7 +11,7 @@ Day 7: Linux Commands & Git Basics
 - `chown` – change ownership
 - `ls -l` – list with details
 
-## Git Commands to Upload Folder
+Git Commands to Upload Folder
 
 ```bash
 git init
