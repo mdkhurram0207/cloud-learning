@@ -1,0 +1,6 @@
+# Linux Commands - Day 8
+1. df -h          → Show disk usage in human-readable format
+2. du -sh *       → Show size of each file/folder
+3. uname -a       → Display system information
+4. history        → Show command history
+5. tail -f /var/log/syslog → Monitor logs in real time
