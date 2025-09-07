@@ -1,3 +1,4 @@
+
 -Day 7: Linux Commands & Git Basics
 
 Linux Commands
@@ -13,10 +14,16 @@ Linux Commands
 
 Git Commands to Upload Folder
 
-```bash
 git init
 git add .
 git commit -m "Day 7: Added Linux commands and Git basics"
 git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
 git branch -M main
 git push -u origin main
+=======
+# Linux Commands - Day 8
+1. df -h          → Show disk usage in human-readable format
+2. du -sh *       → Show size of each file/folder
+3. uname -a       → Display system information
+4. history        → Show command history
+5. tail -f /var/log/syslog → Monitor logs in real time
