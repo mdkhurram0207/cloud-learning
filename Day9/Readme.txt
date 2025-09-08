@@ -2,7 +2,7 @@
 
 # Day 9 – `sed` (Stream Editor)
 
-## 🔹 What is `sed`?
+ 🔹 What is `sed`?
 
 * **`sed`** stands for **Stream Editor**.
 * It reads input **line by line** and allows you to **search, replace, delete, insert, and transform text** automatically.
@@ -36,13 +36,12 @@ sed 's/old/new/' file.txt
 
 ```bash
 sed 's/old/new/g' file.txt
-```
+
 
 * Replace **all occurrences** in each line.
 
 ```bash
 sed -i 's/INFO/LOG/g' app.log
-```
 
 * Edit file directly (**in place**).
 
@@ -74,7 +73,7 @@ sed '2i\This is inserted line' file.txt   # insert before line 2
 sed '2a\This is appended line' file.txt   # append after line 2
 ```
 
----
+
 
 ### 5. **Replace in Specific Lines**
 
@@ -102,7 +101,6 @@ sed -i 's/[0-9]\{16\}/****MASKED****/g' payments.log   # mask credit card number
 * **Extracting important info** (like only `ERROR` lines)
 * **Masking sensitive data** in files
 
----
 
 # 🔹 Difference Between `sed` and `awk`
 
@@ -115,12 +113,10 @@ sed -i 's/[0-9]\{16\}/****MASKED****/g' payments.log   # mask credit card number
 | **Example Use** | Replace "INFO" with "LOG" in logs              | Print only the 2nd column of a log file      |
 | **Complexity**  | Lightweight and simple                         | More powerful, but slightly complex          |
 
-✅ **In short:**
+In short:
 
 * Use **`sed`** for **editing text**.
 * Use **`awk`** for **analyzing and processing structured data**.
-
----
 
 
 
@@ -128,3 +124,4 @@ sed -i 's/[0-9]\{16\}/****MASKED****/g' payments.log   # mask credit card number
 * Powerful for **search/replace, delete, insert, print** operations.
 * Very useful in **DevOps automation** (logs, configs, scripts).
 * `sed` = editing tool, `awk` = data processing tool.
+
