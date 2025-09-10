@@ -39,26 +39,26 @@ Mounting means attaching a storage device to a folder.
 Example: If I mount at /mnt/data, all files I save there go to my Logical Volume.
 
 🔹 Commands I Practiced
-# 1. Check available disks
+1. Check available disks
 lsblk
 
-# 2. Create Physical Volumes (PVs)
+2. Create Physical Volumes (PVs)
 sudo pvcreate /dev/xvdf /dev/xvdg
 
-# 3. Create a Volume Group (VG) from 10GB + 12GB
+3. Create a Volume Group (VG) from 10GB + 12GB
 sudo vgcreate vg_gp /dev/xvdf /dev/xvdg
 
-# 4. Create a Logical Volume (LV) of 10GB from the VG
+4. Create a Logical Volume (LV) of 10GB from the VG
 sudo lvcreate -n lv_data -L 10G vg_gp
 
-# 5. Make a filesystem on the LV
+5. Make a filesystem on the LV
 sudo mkfs.ext4 /dev/vg_gp/lv_data
 
-# 6. Mount the LV to a folder
+6. Mount the LV to a folder
 sudo mkdir -p /mnt/data
 sudo mount /dev/vg_gp/lv_data /mnt/data
 
-# 7. Verify the mount
+7. Verify the mount
 df -h /mnt/data
 
 🔹 Verification Commands
@@ -79,3 +79,4 @@ Mounting connects LV to a folder like /mnt/data.
 
 
 I successfully created a 10GB Logical Volume from a 22GB pool (10GB + 12GB EBS).
+
