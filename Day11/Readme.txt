@@ -72,13 +72,10 @@ df -h → show mounted filesystems
 🔹 Summary of My Learning
 
 EBS volumes = raw storage.
-
 LVM = combines disks into a flexible pool.
-
 PV → VG → LV = the structure of LVM.
-
 Filesystem (ext4) makes the LV usable.
-
 Mounting connects LV to a folder like /mnt/data.
+
 
 I successfully created a 10GB Logical Volume from a 22GB pool (10GB + 12GB EBS).
