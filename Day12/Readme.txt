@@ -1,15 +1,13 @@
 Day 12 – Shell Scripting Basics
-
 Today, I learned about different shells and their use in scripting (bash, sh, dash, ksh).
 
-🔹 What I Learned
+ What I Learned
 
 Shebang (#!): Tells the system which shell to use.
 Example:
 
 #!/bin/bash
 echo "Hello from Bash!"
-
 
 bash (Bourne Again Shell)
 
@@ -57,11 +55,9 @@ done
 💡 Key Takeaway
 
 Use bash for scripting with modern features.
-
 Use sh for portability across systems.
-
 Use dash for fast system-level scripts.
-
 Use ksh in enterprise UNIX environments.
+
 
 ✨ Day 12 complete – learned about shells and scripting basics!
