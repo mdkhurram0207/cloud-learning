@@ -5,7 +5,6 @@ Today, I learned about different shells and their use in scripting (bash, sh, da
 
 Shebang (#!): Tells the system which shell to use.
 Example:
-
 #!/bin/bash
 echo "Hello from Bash!"
 
@@ -20,11 +19,8 @@ sh (Bourne Shell / POSIX shell)
 Very basic, portable.
 
 Often a symlink → points to dash or bash.
-
 dash (Debian Almquist Shell)
-
 Lightweight, very fast, POSIX-compliant.
-
 Used in Debian/Ubuntu for system scripts.
 
 ksh (Korn Shell)
@@ -59,5 +55,5 @@ Use sh for portability across systems.
 Use dash for fast system-level scripts.
 Use ksh in enterprise UNIX environments.
 
+Day 12 complete – learned about shells and scripting basics!
 
-✨ Day 12 complete – learned about shells and scripting basics!
