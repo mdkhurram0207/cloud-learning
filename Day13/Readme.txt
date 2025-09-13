@@ -42,9 +42,7 @@ echo "File downloaded as myfile.txt"
 
 
 Downloads file from the internet and saves as myfile.txt.
-
 🔹 4. Script Safety (set -euo pipefail)
-
 At the start of scripts, I now use:
 
 set -euo pipefail
@@ -54,4 +52,5 @@ set -x
 -o pipefail → Fail if any command in a pipeline fails
 -x → Show each command (debugging)
 This makes scripts safer, reliable, and easier to debug.
+
 
