@@ -49,14 +49,9 @@ At the start of scripts, I now use:
 
 set -euo pipefail
 set -x
-
-
 -e → Exit if a command fails
-
 -u → Error if using undefined variable
-
 -o pipefail → Fail if any command in a pipeline fails
-
 -x → Show each command (debugging)
-
 This makes scripts safer, reliable, and easier to debug.
+
