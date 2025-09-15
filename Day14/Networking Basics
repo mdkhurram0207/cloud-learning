@@ -7,17 +7,7 @@ Simple: Networking means connecting computers, servers, and devices so they can 
 Example: When you open netflix.com, your laptop connects to Netflix’s servers over the internet.
 
 
-Why it matters in Cloud/DevOps:
-
-All cloud services (AWS, GCP, Azure) rely on networking: VPCs, subnets, load balancers, firewalls, etc.
-
-DevOps engineers must know how apps communicate securely and efficiently.
-
-
-
----
-
-🔹 OSI Model (7 Layers)
+ OSI Model (7 Layers)
 
 Think of it like a postal system (step-by-step delivery).
 
@@ -36,7 +26,6 @@ The GPS deciding the delivery route.
 4. Transport – TCP/UDP.
 Ensures delivery is complete (TCP) or fast (UDP).
 
-
 5. Session – session management.
 Opening/closing a phone call.
 
@@ -50,10 +39,8 @@ The app you see: Netflix, Gmail, browser.
 
 
 
-👉 In practice, Cloud/DevOps focuses most on Layers 3–7.
+In practice, Cloud/DevOps focuses most on Layers 3–7.
 
-
----
 
 🔹 TCP (Transmission Control Protocol)
 
@@ -67,7 +54,6 @@ Used for: websites (HTTP/HTTPS), emails (SMTP), file transfers (FTP).
 👉 Like sending a package with tracking.
 
 
----
 
 🔹 IP (Internet Protocol)
 
@@ -76,12 +62,6 @@ Assigns addresses to devices (IPv4/IPv6).
 Responsible for routing data across networks.
 
 Example: 192.168.1.5 (private), 142.250.185.46 (Google server).
-
-
-👉 Like the house address on your parcel.
-
-
----
 
 🔹 Subnet
 
