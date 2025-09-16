@@ -1,22 +1,19 @@
-# 🚀 Day 15 – Networking Basics: IP, TCP, UDP & Subnets
+ Day 15 – Networking Basics: IP, TCP, UDP & Subnets
 
 Today I focused on understanding some **core networking concepts** that are essential for Cloud & DevOps:
 
----
-
-## 🌍 Internet Protocol (IP)
+-- Internet Protocol (IP)
 
 - IP is like the **address system for computers** on a network.  
 - Every device connected to the internet or LAN has an **IP address**.  
 - Think of it as a **home address** that helps data packets know where to go.
 
-### 🔹 Types of IP:
+ Types of IP:
 - **IPv4:** Example → `192.168.1.1` (most commonly used).  
 - **IPv6:** Example → `2001:db8::1` (supports many more devices).  
 
----
 
-## 📦 Transmission Control Protocol (TCP)
+#Transmission Control Protocol (TCP)
 
 - TCP ensures **reliable communication** between devices.  
 - It breaks data into **packets**, sends them, and ensures all are delivered in order.  
@@ -27,7 +24,6 @@ Today I focused on understanding some **core networking concepts** that are esse
 - Reliable, ordered, error-checked delivery.  
 - Example Uses: Web browsing (HTTP/HTTPS), Emails (SMTP, IMAP).
 
----
 
 ## ⚡ User Datagram Protocol (UDP)
 
@@ -39,9 +35,7 @@ Today I focused on understanding some **core networking concepts** that are esse
 - Faster, but no guarantee of delivery/order.  
 - Example Uses: Online gaming, video streaming, voice calls.  
 
----
-
-## 🌐 Subnets (Sub-networks)
+🌐 Subnets (Sub-networks)
 
 - A **subnet** is like dividing a **big neighborhood into smaller blocks**.  
 - Helps manage IP addresses efficiently and improve performance.  
@@ -56,9 +50,8 @@ Today I focused on understanding some **core networking concepts** that are esse
 - Improve security by isolating networks (public vs private).  
 - Essential for Cloud networking (AWS VPC, GCP VPC, Azure VNets).  
 
----
 
-## 🔑 Analogy (Simple Terms)
+ Analogy (Simple Terms)
 
 - **IP Address** = House address  
 - **Subnet** = Neighborhood  
@@ -66,17 +59,3 @@ Today I focused on understanding some **core networking concepts** that are esse
 - **UDP** = Normal mail (fast but no guarantee)  
 - **Router** = Post office that sends letters outside the neighborhood  
 
----
-
-## 📖 Summary
-
-- **IP** = Address system of devices.  
-- **TCP** = Reliable communication.  
-- **UDP** = Fast communication.  
-- **Subnets** = Divide large networks for better management.  
-
----
-
-📅 **Day 15 Complete!**  
-✔ Learned IP, TCP, UDP, Subnets in detail with examples.  
-✔ Clearer understanding of how devices talk in networks.  
