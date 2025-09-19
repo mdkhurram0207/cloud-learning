@@ -1,6 +1,5 @@
-## 📅 Day 17 - Advanced Networking  
-
-### 🔑 What I Learned Today  
+ Day 17 - Advanced Networking  
+ What I Learned Today  
 
 #### 1. DNS (Domain Name System)  
 - DNS is like the **phonebook of the internet**.  
@@ -10,13 +9,12 @@
   2. Request goes to **DNS resolver**.  
   3. Resolver queries **root servers → TLD servers → authoritative name servers**.  
   4. IP is returned, and the browser connects to the website.  
+
 - Types of DNS records:  
   - **A Record:** Maps domain to IPv4.  
   - **AAAA Record:** Maps domain to IPv6.  
   - **CNAME:** Alias for another domain.  
   - **MX Record:** For mail servers.  
-
----
 
 #### 2. NAT (Network Address Translation)  
 - NAT translates **private IPs** (inside your network) into **public IPs** (on the internet).  
@@ -29,7 +27,6 @@
   - **Dynamic NAT:** Private ↔ pool of public IPs.  
   - **PAT (Port Address Translation):** Many private IPs share one public IP using different ports.  
 
----
 
 #### 3. Firewalls  
 - A **firewall** acts as a gatekeeper for network traffic.  
@@ -40,7 +37,6 @@
   - **Application Firewall:** Filters based on applications (e.g., HTTP, FTP).  
 - Example: Cloud providers (AWS, Azure, GCP) use **Security Groups** and **Network ACLs** as firewalls.  
 
----
 
 #### 4. VPN (Virtual Private Network)  
 - A **VPN** creates a secure **encrypted tunnel** between your device and another network.  
@@ -53,7 +49,6 @@
   - **OpenVPN**.  
   - **WireGuard**.  
 
----
 
 #### 5. CDN (Content Delivery Network)  
 - A **CDN** speeds up content delivery by caching it in multiple **edge servers** worldwide.  
@@ -64,7 +59,6 @@
   - Handles high traffic loads.  
 - Examples: Cloudflare, Akamai, AWS CloudFront.  
 
----
 
 ### ✅ Key Takeaway  
 Today I explored **advanced networking** concepts:  
@@ -73,5 +67,5 @@ Today I explored **advanced networking** concepts:
 - **Firewalls** secure traffic.  
 - **VPNs** provide secure, private connections.  
 - **CDNs** improve performance and reliability of applications.  
+  
 
-Together, these technologies ensure that modern networks are **secure, scalable, and efficient**.  
