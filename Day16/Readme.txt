@@ -39,3 +39,6 @@
 - Example: In AWS, **Elastic Load Balancer (ELB)** automatically distributes incoming traffic to multiple EC2 instances.  
 
 
+** Learned About Advance Shell Scripting 
+
+
